@@ -8,7 +8,6 @@ import "./style.css";
 function App() {
   // Use the server as needed
   //server.use("../store/taskApi", server);
-
   return (
     <div className="App">
       <ToDoListPage />
