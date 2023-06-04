@@ -1,0 +1,49 @@
+.trash-icon {
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+}
+
+:root {
+  --white: #fff;
+  --black: #000000;
+  --shadow-color: rgba(149, 157, 165, 0.2);
+  --light-gray: rgba(213, 213, 213, 0.757);
+  --gray: rgb(139, 139, 139);
+  --blue: rgb(115, 146, 165);
+  --light-blue: rgb(240, 243, 245);
+  --blue-transparent: rgba(0, 157, 224, 0.1);
+  --dark-blue: rgb(69, 82, 219);
+}
+
+.app {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+}
+
+html {
+  font-family: Segoe UI;
+  font-size: 92.5%;
+  user-select: none;
+}
+
+/* body {
+  box-sizing: border-box;
+} */
+
+.taskbox {
+  overflow: hidden;
+  border: 3px solid var(--light-gray);
+  box-shadow: var(--shadow-color) 0px 8px 24px;
+  border-radius: 1rem;
+  color: var(--white);
+  font-size: 1.3rem;
+  background-color: rgb(133, 145, 145);
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+}
