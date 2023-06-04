@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiOutlineTrash } from "react-icons/hi";
 import axios from "axios";
-// http://127.0.0.1:8000/api/tasks/77/mark_done/
+
 function Task({ value }) {
   const [isInput, setIsInput] = useState(false);
 
